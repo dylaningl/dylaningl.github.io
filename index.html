@@ -14,6 +14,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -95,11 +98,19 @@
 						<p>Various Projects I have worked on</p>
 					</header>
 					<div class="image-grid">
-						<a href="https://www.facebook.com/qutwildcats/" class="image"><div class="bord crossfd"><img src="images/portfolio/wildcats
-							.png" alt="" /></div></a>
-						<a href="images/rome/r20.jpg" class="image"><div class="bord crossfd1"><img src="images/portfolio/vr-logo.png" alt="" /></div></a>
-						<a href="images/milan/m1.jpg" class="image"><div class="bord crossfd2"><img src="images/portfolio/blender-logo.png" alt="" /></div></a>
-						<a href="images/milan/m2.jpg" class="image"><div class="bord crossfd3"><img src="images/portfolio/andriod-logo.png" alt="" /></div></a>
+						<a href="#myPopup" class="image" data-rel="popup" data-position-to="window"><div class="bord crossfd"><img src="images/portfolio/wildcats
+							.png" alt="" /></div></a><div data-role="popup" id="myPopup"> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/portfolio/img1.gif" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+						<a href="#myPopup1" class="image" data-rel="popup" data-position-to="window"><div class="bord crossfd1"><img src="images/portfolio/vr-logo.png" alt="" /></div></a><div data-role="popup" id="myPopup1"> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/portfolio/img2.png" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+						<a href="#myPopup2" class="image" data-rel="popup" data-position-to="window"><div class="bord crossfd2"><img src="images/portfolio/blender-logo.png" alt="" /></div></a><div data-role="popup" id="myPopup2"> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/portfolio/img3.png" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+						<a href="#myPopup3" class="image" data-rel="popup" data-position-to="window"><div class="bord crossfd3"><img src="images/portfolio/andriod-logo.png" alt="" /></div></a><div data-role="popup" id="myPopup3"> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/portfolio/img4.gif" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
 					</div>
 					<ul class="actions">
 						<li><a href="portfolio.html" class="button big alt">My Portfolio</a></li>
