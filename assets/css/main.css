@@ -2622,7 +2622,7 @@
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 2px #BB0000;
-		color: #1E2832 !important;
+		color: #BB0000 !important;
 	}
 
 		input[type="submit"].icon:before,
@@ -2630,7 +2630,7 @@
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			color: #1E2832;
+			color: #BB0000;
 		}
 
 		input[type="submit"]:hover,
@@ -2638,7 +2638,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1E2832;
+			background-color: #BB0000;
 			color: #FFFFFF !important;
 		}
 
@@ -2648,8 +2648,8 @@
 		button:active,
 		.button:active {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #1E2832;
-			color: #1E2832 !important;
+			box-shadow: inset 0 0 0 2px #BB0000;
+			color: #BB0000 !important;
 		}
 
 		input[type="submit"].special,
@@ -2657,7 +2657,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #1E2832;
+			background-color: #BB0000;
 			box-shadow: none;
 			color: #FFFFFF !important;
 		}
@@ -2668,8 +2668,8 @@
 			button.special:hover,
 			.button.special:hover {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #1E2832;
-				color: #1E2832 !important;
+				box-shadow: inset 0 0 0 2px #BB0000;
+				color: #BB0000 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2678,8 +2678,8 @@
 			button.special:active,
 			.button.special:active {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #1E2832;
-			color: #1E2832 !important;
+				box-shadow: inset 0 0 0 2px #BB0000;
+			color: #BB0000 !important;
 			}
 
 		input[type="submit"].alt,
@@ -2688,8 +2688,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #1E2832;
-			color: #1E2832 !important;
+			box-shadow: inset 0 0 0 2px #BB0000;
+			color: #BB0000 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2697,8 +2697,8 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #1E2832;
-			box-shadow: inset 0 0 0 2px #1E2832;
+				background-color: #BB0000;
+			box-shadow: inset 0 0 0 2px #BB0000;
 			color: #FFFFFF !important;
 			}
 
@@ -2707,8 +2707,8 @@
 			input[type="button"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #1E2832;
-			box-shadow: inset 0 0 0 2px #1E2832;
+				background-color: #BB0000;
+			box-shadow: inset 0 0 0 2px #BB0000;
 			color: #FFFFFF !important;
 			}
 
@@ -3083,8 +3083,8 @@
 				.wrapper.style1 button.alt,
 				.wrapper.style1 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px #1E2832;
-					color: #1E2832 !important;
+					box-shadow: inset 0 0 0 2px #BB0000;
+					color: #BB0000 !important;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -3092,7 +3092,7 @@
 					.wrapper.style1 input[type="button"].alt:hover,
 					.wrapper.style1 button.alt:hover,
 					.wrapper.style1 .button.alt:hover {
-						background-color: #1E2832;
+						background-color: #BB0000;
 						color: #FFFFFF !important;
 					}
 
@@ -3340,10 +3340,10 @@
 					}
 
 		.wrapper.style3 {
-			background-color: #708090 ;
+			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/img1.jpg");
+			background-image: url("images/overlay.png"), url("../../images/florence/f12.jpg");
 			background-size: cover;
 		}
 
@@ -3771,7 +3771,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #1E2832;
+		background: #BB0000;
 		box-shadow: none;
 		color: #fff;
 		height: 100%;
@@ -4130,7 +4130,7 @@
 /* Footer */
 
 	#footer {
-		background-color: #1E2832;
+		background-color: #BB0000;
 		color: #FFFFFF;
 		text-align: center;
 	}
@@ -4238,68 +4238,3 @@
 			}
 
 		}
-.bord{
-        padding: 0;
-        margin: 0;
-        -webkit-box-sizing: border-box;
-         }
-.crossfd{
-        background: url("images/img1.png");
-        display: inline-block;
-        font:size: 0;
-             }
-.crossfd img{
-                 -webkit-transition: opacity 1s ease-in-out;
-                 -moz-transition: opacity 1s ease-in-out;
-                 -o-transition: opacity 1s ease-in-out;
-                 transition: opacity 1s ease-in-out;
-
-                    }
-.crossfd img:hover{
-                    opacity: 0;
-                               }
-.crossfd1{
-        background: url("images/img2.png");
-        display: inline-block;
-        font:size: 0;
-             }
-.crossfd1 img{
-                 -webkit-transition: opacity 1s ease-in-out;
-                 -moz-transition: opacity 1s ease-in-out;
-                 -o-transition: opacity 1s ease-in-out;
-                 transition: opacity 1s ease-in-out;
-
-                    }
-.crossfd1 img:hover{
-                    opacity: 0;
-                               }
-.crossfd2{
-        background: url("images/img4.png");
-        display: inline-block;
-        font:size: 0;
-             }
-.crossfd2 img{
-                 -webkit-transition: opacity 1s ease-in-out;
-                 -moz-transition: opacity 1s ease-in-out;
-                 -o-transition: opacity 1s ease-in-out;
-                 transition: opacity 1s ease-in-out;
-
-                    }
-.crossfd2 img:hover{
-                    opacity: 0;
-                               }
-.crossfd3{
-        background: url("images/img3.png");
-        display: inline-block;
-        font:size: 0;
-             }
-.crossfd3 img{
-                 -webkit-transition: opacity 1s ease-in-out;
-                 -moz-transition: opacity 1s ease-in-out;
-                 -o-transition: opacity 1s ease-in-out;
-                 transition: opacity 1s ease-in-out;
-
-                    }
-.crossfd3 img:hover{
-                    opacity: 0;
-                               }
