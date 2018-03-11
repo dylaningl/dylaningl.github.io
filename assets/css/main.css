@@ -2621,7 +2621,7 @@
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #BB0000;
+		box-shadow: inset 0 0 0 2px #1E2832;
 		color: #1E2832 !important;
 	}
 
@@ -3639,7 +3639,7 @@
 		background: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
-		height: 3.25em;
+		height: 3.75em;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
