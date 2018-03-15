@@ -4131,6 +4131,7 @@
 
 	#footer {
 		background-color: #1E2832;
+		background-image: url("images/overlay.png"), url("../../images/img1.JPG");
 		color: #FFFFFF;
 		text-align: center;
 	}
