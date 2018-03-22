@@ -2622,8 +2622,13 @@
 	button,
 	.button {
 		background-color: transparent;
+<<<<<<< HEAD
 		box-shadow: inset 0 0 0 2px #1E2832;
 		color: #1E2832 !important;
+=======
+		box-shadow: inset 0 0 0 2px #BB0000;
+		color: #BB0000 !important;
+>>>>>>> parent of b41ad4d... v1.0.2.1
 	}
 
 		input[type="submit"].icon:before,
@@ -2631,7 +2636,7 @@
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			color: #1E2832;
+			color: #BB0000;
 		}
 
 		input[type="submit"]:hover,
@@ -2639,7 +2644,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1E2832;
+			background-color: #BB0000;
 			color: #FFFFFF !important;
 		}
 
@@ -2649,8 +2654,8 @@
 		button:active,
 		.button:active {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #1E2832;
-			color: #1E2832 !important;
+			box-shadow: inset 0 0 0 2px #BB0000;
+			color: #BB0000 !important;
 		}
 
 		input[type="submit"].special,
@@ -2658,7 +2663,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #1E2832;
+			background-color: #BB0000;
 			box-shadow: none;
 			color: #FFFFFF !important;
 		}
@@ -2669,8 +2674,8 @@
 			button.special:hover,
 			.button.special:hover {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #1E2832;
-				color: #1E2832 !important;
+				box-shadow: inset 0 0 0 2px #BB0000;
+				color: #BB0000 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2679,8 +2684,8 @@
 			button.special:active,
 			.button.special:active {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #1E2832;
-			color: #1E2832 !important;
+				box-shadow: inset 0 0 0 2px #BB0000;
+			color: #BB0000 !important;
 			}
 
 		input[type="submit"].alt,
@@ -2689,8 +2694,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #1E2832;
-			color: #1E2832 !important;
+			box-shadow: inset 0 0 0 2px #BB0000;
+			color: #BB0000 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2698,8 +2703,8 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #1E2832;
-			box-shadow: inset 0 0 0 2px #1E2832;
+				background-color: #BB0000;
+			box-shadow: inset 0 0 0 2px #BB0000;
 			color: #FFFFFF !important;
 			}
 
@@ -2708,8 +2713,8 @@
 			input[type="button"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #1E2832;
-			box-shadow: inset 0 0 0 2px #1E2832;
+				background-color: #BB0000;
+			box-shadow: inset 0 0 0 2px #BB0000;
 			color: #FFFFFF !important;
 			}
 
@@ -3084,8 +3089,8 @@
 				.wrapper.style1 button.alt,
 				.wrapper.style1 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px #1E2832;
-					color: #1E2832 !important;
+					box-shadow: inset 0 0 0 2px #BB0000;
+					color: #BB0000 !important;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -3093,7 +3098,7 @@
 					.wrapper.style1 input[type="button"].alt:hover,
 					.wrapper.style1 button.alt:hover,
 					.wrapper.style1 .button.alt:hover {
-						background-color: #1E2832;
+						background-color: #BB0000;
 						color: #FFFFFF !important;
 					}
 
@@ -3341,10 +3346,10 @@
 					}
 
 		.wrapper.style3 {
-			background-color: #708090 ;
+			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/img1.jpg");
+			background-image: url("images/overlay.png"), url("../../images/florence/f12.jpg");
 			background-size: cover;
 		}
 
@@ -3772,7 +3777,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #1E2832;
+		background: #BB0000;
 		box-shadow: none;
 		color: #fff;
 		height: 100%;
@@ -4131,8 +4136,12 @@
 /* Footer */
 
 	#footer {
+<<<<<<< HEAD
 		background-color: #1E2832;
 		background-image: url("images/overlay.png"), url("../../images/img13.png");
+=======
+		background-color: #BB0000;
+>>>>>>> parent of b41ad4d... v1.0.2.1
 		color: #FFFFFF;
 		text-align: center;
 	}
@@ -4239,6 +4248,7 @@
 				padding: 2em 0 0.1em 0;
 			}
 
+<<<<<<< HEAD
 		}
 .bord{
         padding: 0;
@@ -4305,3 +4315,6 @@
 .crossfd3 img:hover{
                     opacity: 0;
                                }"
+=======
+		}
+>>>>>>> parent of b41ad4d... v1.0.2.1
